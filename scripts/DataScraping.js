@@ -6,7 +6,7 @@ async function crawlData(startDate, endDate) {
             headless: true,
             //executablePath: './Chrome/Application/chrome.exe',
             args: ['--no-sandbox', '--disable-setuid-sandbox'],
-            executablePath: '/usr/bin/chromium'
+            //executablePath: '/usr/bin/chromium'
         }
     );
     

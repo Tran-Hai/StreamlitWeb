@@ -35,4 +35,4 @@ COPY . /code
 EXPOSE 8501
 
 # Run streamlit when the container launches
-CMD ["streamlit", "run", "Dashboard.py"]
+CMD ["streamlit", "run", "app/app.py"]
